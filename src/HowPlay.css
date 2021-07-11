@@ -1,0 +1,59 @@
+.sectionss {
+  background-color: white;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.paragraphh_section {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 10px;
+  color: rgb(168, 166, 166);
+  font-weight: 400;
+}
+.headerr_section {
+  font-size: 20px;
+  font-weight: 600;
+}
+.example_section {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 10px;
+  color: rgb(168, 166, 166);
+  font-weight: 400;
+  word-spacing: 30px;
+}
+.example_section_1 {
+  font-size: 14px;
+  line-height: 0px;
+  padding: 10px;
+  margin-top: 20px;
+  color: rgb(168, 166, 166);
+  font-weight: 400;
+  word-spacing: 15px;
+}
+.Arrows {
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
+  position: fixed;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .sectionss {
+    width: 80%;
+    margin-top: 90px;
+    margin-bottom: 70px;
+  }
+  .Arrows {
+    margin-top: -70px;
+  }
+  .headerr_section {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

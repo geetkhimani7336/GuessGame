@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
+.heading_tag {
+  font-family: "Otomanopee One", sans-serif;
+}
+.process_container {
+  margin-top: 10px;
+}
+.sectionn {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+.process {
+  /* display: flex; */
+  text-align: center;
+  /* height: 100%; */
+  margin-top: 40px;
+}
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.app_baground {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 10px;
+}
+input {
+  width: 350px;
+  height: 40px;
+  background: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+  outline: none;
+}
+.score__result {
+  margin-top: 100px;
+  margin-right: -240px;
+  margin-left: 100px;
+  /* display: none; */
+}
+.button_section {
+  margin-left: 49px;
+}
+.button_inside {
+  background: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  outline: none;
+  margin-right: 10px;
+}
+.score_btn {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.Arrows1 {
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
+  position: fixed;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .process_container {
+    margin-top: 0px;
+  }
+  .sectionn {
+    display: block;
+    overflow-x: hidden;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .app_baground {
+    margin: auto;
+    width: 370px;
+    height: 350px;
+  }
+  .button_inside {
+    width: 120px;
+    height: 50px;
+    box-shadow: none;
+    margin-right: 10px;
+  }
+  input {
+    width: 340px;
+    height: 40px;
+    margin-right: 5px;
+  }
+  .score__result {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+  .Arrows1 {
+    margin-top: 30px;
+    position: fixed;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .score_btn {
+    margin-top: 30px;
+    margin-left: 4px;
+    margin-bottom: 70px;
+  }
+}

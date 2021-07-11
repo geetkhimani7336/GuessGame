@@ -1,0 +1,43 @@
+.score_section {
+  float: right;
+  background-color: white;
+  height: 270px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 20px 40px 10px 30px;
+}
+/* h1 {
+  display: flex;
+  justify-content: center;
+} */
+.tts {
+  text-align: center;
+  margin-top: 60px;
+  padding-right: 5px;
+}
+.scored_title {
+  display: flex;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.scored_value {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 22px;
+}
+span {
+  padding-left: 30px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .score_section {
+    width: 280px;
+    float: none;
+    height: 270px;
+  }
+  .valuee {
+    padding: 0;
+  }
+}
