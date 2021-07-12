@@ -11,6 +11,9 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
+          <Route exact path="/">
+            <FrontPagee />
+          </Route>
           <Route exact path="/process">
             <Working />
           </Route>
@@ -19,9 +22,6 @@ function App() {
           </Route>
           <Route exact path="/playhow">
             <HowPlay />
-          </Route>
-          <Route exact path="/">
-            <FrontPagee />
           </Route>
         </Switch>
       </div>
